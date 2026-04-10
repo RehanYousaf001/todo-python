@@ -7,10 +7,10 @@ clock = sg.Text('', key='clock')
 todos = function.get_todos()
 label = sg.Text('Type in a todo')
 input_box = sg.InputText(tooltip='Type Todo', key='todo')
-add_btn = sg.Button('Add')
+add_btn = sg.Button(size=3, image_source='add.png', mouseover_colors='LightBlue2', tooltip='Add Todo', key='Add')
 list_box = sg.Listbox(values=function.get_todos(), key='todos', enable_events=True, size=(45, 10))
 edit_btn = sg.Button('Edit')
-complete_btn = sg.Button('Complete')
+complete_btn = sg.Button(size=3, image_source='complete.png', mouseover_colors='LightBlue2', tooltip='Complete the Todo', key='Complete')
 exit_btn = sg.Button('Exit')
 
 window = sg.Window('My To-Do App', layout=[

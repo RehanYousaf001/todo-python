@@ -3,4 +3,7 @@ name = "pythonlearningproject"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pyinstall>=0.1.4",
+    "pyinstaller>=6.19.0",
+]
