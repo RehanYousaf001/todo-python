@@ -1,2 +1,2 @@
 First python app
-Add icon
+Complete your task at day end
